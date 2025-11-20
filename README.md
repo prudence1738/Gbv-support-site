@@ -1,2 +1,1 @@
-# Gbv-support-site
-A privacy-first web platform providing gender-based violence (GBV) information, emergency contacts, and support resources for users in Kenya.
+A simple, safe, and user-friendly web platform designed to support survivors of gender-based violence (GBV) in Kenya. The site provides verified emergency contacts, local support organizations (such as Usikimye, GVRC, COVAW, and others), educational resources, and a Quick Exit safety feature. Built as an MVP for my final-year project and aligned with SDG 5 — Gender Equality.
