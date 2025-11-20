@@ -32,3 +32,9 @@ Static HTML/CSS/JS (Option A). Optional Flask backend for messages (Option B).
 - Implement Quick Exit button
 - Disable analytics that record personal data (or anonymize)
 
+  
+## Live Demo
+
+Check out the live site here: [GBV Support Site
+
+https://prudence1738.github.io/Gbv-support-site/
