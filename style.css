@@ -1,13 +1,19 @@
-/* ----------------- */
+/* -----------------
 /* Root color palette */
 /* ----------------- */
 :root {
-  --bg: #f9f6f9;           /* soft neutral background */
-  --text: #2a2a2a;         /* dark gray text */
-  --accent: #9b59b6;       /* soft purple */
-  --accent-hover: #7e3f99; /* darker purple for hover */
-  --muted: #6e6e70;        /* muted gray for footer/secondary text */
-  --card-bg: #ffffff;       /* cards background */
+   --bg: #f9f6f9;           /* soft neutral
+  background */
+     --text: #2a2a2a;         /* dark gray 
+  text */
+  --accent: #9b59b6;       /* soft purple
+  */
+  --accent-hover: #7e3f99; /* darker
+  purple for hover */
+  --muted: #6e6e70;        /* muted gray
+  for footer/secondary text */
+   --card-bg: #ffffff;       /* cards
+  background */
   --shadow: rgba(0,0,0,0.05);
   --transition-speed: 0.3s;
 }
