@@ -1,0 +1,181 @@
+/* ----------------- */
+/* Root color palette */
+/* ----------------- */
+:root {
+  --bg: #f2f7f9;        /* soft pastel blue background */
+  --text: #2a2a2a;      /* dark gray text for readability */
+  --accent: #6aa6d6;    /* soft calm blue for buttons/links */
+  --accent-hover: #4f91c0;
+  --muted: #6e7b8c;     /* muted gray for footers & secondary text */
+  --card-bg: #ffffff;    /* cards are white for contrast */
+  --shadow: rgba(0,0,0,0.05);
+}
+
+/* ----------------- */
+/* Global styles */
+/* ----------------- */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.6;
+  color: var(--text);
+  background: var(--bg);
+  margin: 0;
+}
+
+/* Container */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* ----------------- */
+/* Header & Quick Exit */
+/* ----------------- */
+.site-header {
+  background: #e4f0f6;       /* very soft blue */
+  border-bottom: 1px solid #cfdce6;
+  padding: 1rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.site-header h1 {
+  margin: 0;
+  font-weight: 600;
+  font-size: 1.5rem;
+  display: inline-block;
+}
+
+#quick-exit {
+  float: right;
+  background: var(--accent);
+  border: none;
+  color: #fff;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+#quick-exit:hover {
+  background: var(--accent-hover);
+}
+
+/* ----------------- */
+/* Hero Section */
+/* ----------------- */
+.hero {
+  padding: 3rem 1rem;
+  text-align: center;
+  background: #d9edf7; /* calm blue */
+  border-radius: 12px;
+  margin-bottom: 2rem;
+}
+
+.hero .lead {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.65rem 1.2rem;
+  border-radius: 8px;
+  background: var(--accent);
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: var(--accent-hover);
+}
+
+/* ----------------- */
+/* Info Section */
+/* ----------------- */
+.info {
+  padding: 1.5rem 0;
+}
+
+.info h2 {
+  margin-bottom: 0.5rem;
+}
+
+/* ----------------- */
+/* Organisation Cards */
+/* ----------------- */
+#orgs .org {
+  background: var(--card-bg);
+  border: 1px solid #dce3e8;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px var(--shadow);
+  transition: 0.3s;
+}
+
+#orgs .org:hover {
+  border-color: var(--accent);
+  box-shadow: 0 4px 10px var(--shadow);
+}
+
+.org h3 {
+  margin: 0 0 0.25rem 0;
+  font-size: 1.1rem;
+  color: var(--accent);
+}
+
+.org p {
+  margin: 0.25rem 0;
+}
+
+/* ----------------- */
+/* Footer */
+/* ----------------- */
+.site-footer {
+  background: #e4f0f6;
+  color: var(--muted);
+  font-size: 0.9rem;
+  padding: 1.5rem 0;
+  text-align: center;
+  border-top: 1px solid #cfdce6;
+}
+
+/* ----------------- */
+/* Links */
+.link, a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.link:hover, a:hover {
+  text-decoration: underline;
+}
+
+/* ----------------- */
+/* Responsive Design */
+@media (max-width: 600px) {
+  #quick-exit {
+    float: none;
+    display: block;
+    margin: 0.5rem auto;
+  }
+
+  .btn {
+    width: 100%;
+    text-align: center;
+  }
+
+  .hero {
+    padding: 2rem 1rem;
+  }
+}
